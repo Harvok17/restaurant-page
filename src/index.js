@@ -56,9 +56,6 @@ nav.menuClick(() => {
 
 nav.contactClick(() => {
   const contact = document.querySelector(".contact-page");
-  hidePages()
-  contact.classList.remove('hide')
-
+  hidePages();
+  contact.classList.remove("hide");
 });
-
-console.log("Hello World")

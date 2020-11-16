@@ -3,7 +3,7 @@ export function initPage() {
   const container = document.createElement("DIV");
   container.className = "container";
   const html = `
-    <img src="/assets/Logo.png" alt="Logo">
+    <img src="assets/Logo.png" alt="Logo">
     
     <ul class="navbar">
         <li class="link" id="home">Home</li>      
