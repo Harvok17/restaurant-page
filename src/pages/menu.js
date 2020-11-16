@@ -34,7 +34,7 @@ export function menuPage() {
             </div>
         </div>
         <p class="add-ons">With Softdrinks Add $2</p>
-    `;;;;
+    `;
 
     menuDiv.insertAdjacentHTML("beforeend", html)
 
