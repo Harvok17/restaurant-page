@@ -2,9 +2,10 @@
 export function initPage() {
   const container = document.createElement("DIV");
   container.className = "container";
+  const logo = new Image();
+  logo.src = "/assets/Logo.png";
+  logo.alt = "Logo";
   const html = `
-    <img src="/assets/Logo.png" alt="Logo">
-    
     <ul class="navbar">
         <li class="link" id="home">Home</li>      
         <li class="link" id="about">About</li>     
@@ -14,6 +15,8 @@ export function initPage() {
     
     <div class="main-content"></div>
     `;
+
+  container.append(logo);
   container.insertAdjacentHTML("beforeend", html);
 
 
