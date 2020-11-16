@@ -3,7 +3,7 @@ export function initPage() {
   const container = document.createElement("DIV");
   container.className = "container";
   const logo = new Image();
-  logo.src = "assets/Logo.png";
+  logo.src = "/assets/Logo.png";
   logo.alt = "Logo";
   const html = `
     <ul class="navbar">
