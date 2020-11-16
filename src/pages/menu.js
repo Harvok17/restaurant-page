@@ -5,28 +5,28 @@ export function menuPage() {
     const html = `
         <div class="menu-items">
             <div class="menu-item">
-                <img src="assets/Thicc Burger.png" alt="Thicc Burger">
+                <img src="/assets/Thicc Burger.png" alt="Thicc Burger">
                 <div class="item-details">
                     <p class="item-name">Thicc Burger</p>
                     <p class="item-price">$5</p>
                 </div>
             </div>
             <div class="menu-item">
-                <img src="assets/Red burger.png" alt="Red Burger">
+                <img src="/assets/Red burger.png" alt="Red Burger">
                 <div class="item-details">
                     <p class="item-name">Red Burger</p>
                     <p class="item-price">$5</p>
                 </div>
             </div>
             <div class="menu-item">
-                <img src="assets/Very Thicc Burger.png" alt="Very Thicc Burger">
+                <img src="/assets/Very Thicc Burger.png" alt="Very Thicc Burger">
                 <div class="item-details">
                     <p class="item-name">Very Thicc Burger</p>
                     <p class="item-price">$7</p>
                 </div>
             </div>
             <div class="menu-item">
-                <img src="assets/Thicc Fries.png" alt="Thicc Fries">
+                <img src="/assets/Thicc Fries.png" alt="Thicc Fries">
                 <div class="item-details">
                     <p class="item-name">Thicc Fries</p>
                     <p class="item-price">$3</p>
