@@ -1,4 +1,4 @@
-import hero from "/assets/about-photo.png";
+import hero from "/src/assets/about-photo.png";
 
 export function aboutPage(){
     const aboutDiv = document.createElement('DIV');

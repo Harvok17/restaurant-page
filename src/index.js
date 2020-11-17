@@ -4,7 +4,7 @@ import { homePage } from "./pages/home.js";
 import { aboutPage } from "./pages/about.js";
 import { menuPage } from "./pages/menu.js";
 import { contactPage } from "./pages/contact.js";
-import favicon from "/assets/burger-favicon.png";
+import favicon from "/src/assets/burger-favicon.png";
 import "./main.css";
 
 (function () {

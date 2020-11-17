@@ -1,7 +1,7 @@
-import ThiccBurger from "/assets/Thicc Burger.png";
-import RedBurger from "/assets/Red burger.png";
-import VeryThiccBurger from "/assets/Very Thicc Burger.png";
-import ThiccFries from "/assets/Thicc Fries.png";
+import ThiccBurger from "/src/assets/thicc-burger.png";
+import RedBurger from "/src/assets/red-burger.png";
+import VeryThiccBurger from "/src/assets/very-thicc-burger.png";
+import ThiccFries from "/src/assets/thicc-fries.png";
 
 export function menuPage() {
     const menuDiv = document.createElement('DIV');

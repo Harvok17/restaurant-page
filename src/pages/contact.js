@@ -1,5 +1,5 @@
-import PhoneNumber from "/assets/Phone number.png";
-import Email from "/assets/Email.png";
+import PhoneNumber from "/src/assets/phone-number.png";
+import Email from "/src/assets/Email.png";
 
 export function contactPage() {
     const contactDiv = document.createElement('DIV');

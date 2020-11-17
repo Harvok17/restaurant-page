@@ -80,7 +80,7 @@ h1 {
 .home-page {
   height: 100%;
   width: 100%;
-  background-image: url(/assets/hero.png);
+  background-image: url(./assets/hero.png);
   background-size: cover;
   position: absolute;
 }
