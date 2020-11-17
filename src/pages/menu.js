@@ -1,3 +1,8 @@
+import ThiccBurger from "/assets/Thicc Burger.png";
+import RedBurger from "/assets/Red burger.png";
+import VeryThiccBurger from "/assets/Very Thicc Burger.png";
+import ThiccFries from "/assets/Thicc Fries.png";
+
 export function menuPage() {
     const menuDiv = document.createElement('DIV');
     menuDiv.className = 'pages menu-page'
@@ -5,28 +10,28 @@ export function menuPage() {
     const html = `
         <div class="menu-items">
             <div class="menu-item">
-                <img src="/assets/Thicc Burger.png" alt="Thicc Burger">
+                <img src=${ThiccBurger} alt="Thicc Burger">
                 <div class="item-details">
                     <p class="item-name">Thicc Burger</p>
                     <p class="item-price">$5</p>
                 </div>
             </div>
             <div class="menu-item">
-                <img src="/assets/Red burger.png" alt="Red Burger">
+                <img src=${RedBurger} alt="Red Burger">
                 <div class="item-details">
                     <p class="item-name">Red Burger</p>
                     <p class="item-price">$5</p>
                 </div>
             </div>
             <div class="menu-item">
-                <img src="/assets/Very Thicc Burger.png" alt="Very Thicc Burger">
+                <img src=${VeryThiccBurger} alt="Very Thicc Burger">
                 <div class="item-details">
                     <p class="item-name">Very Thicc Burger</p>
                     <p class="item-price">$7</p>
                 </div>
             </div>
             <div class="menu-item">
-                <img src="/assets/Thicc Fries.png" alt="Thicc Fries">
+                <img src=${ThiccFries} alt="Thicc Fries">
                 <div class="item-details">
                     <p class="item-name">Thicc Fries</p>
                     <p class="item-price">$3</p>
