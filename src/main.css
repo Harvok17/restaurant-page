@@ -28,6 +28,12 @@ h1 {
   text-align: center;
 }
 
+.logo {
+  height: 178px;
+  width: 200px;
+  cursor: pointer;
+}
+
 .content {
   height: 100%;
   display: flex;
@@ -78,11 +84,12 @@ h1 {
 
 /* Home page */
 .home-page {
-  height: 100%;
+  height: 800px;
   width: 100%;
   background-image: url(./assets/hero.png);
   background-size: cover;
   position: absolute;
+  margin-bottom: 20px;
 }
 
 .intro {
@@ -154,6 +161,7 @@ h1 {
   justify-content: center;
   flex-direction: column;
   color: white;
+  margin-bottom: 20px;
 }
 
 .menu-items {

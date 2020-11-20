@@ -45,26 +45,35 @@ ctaBtn.addEventListener("click", function () {
   menu.classList.remove("hide");
 });
 
-nav.homeClick(() => {
+const logo = document.querySelector(".logo");
+logo.addEventListener("click", () => {
   const home = document.querySelector(".home-page");
   hidePages();
   home.classList.remove("hide");
 });
 
-nav.aboutClick(() => {
-  const about = document.querySelector(".about-page");
-  hidePages();
-  about.classList.remove("hide");
-});
+nav.onClick((e) => {
+  if (e.target.id === "home") {
+    const home = document.querySelector(".home-page");
+    hidePages();
+    home.classList.remove("hide");
+  }
 
-nav.menuClick(() => {
-  const menu = document.querySelector(".menu-page");
-  hidePages();
-  menu.classList.remove("hide");
-});
+  if (e.target.id === "about") {
+    const about = document.querySelector(".about-page");
+    hidePages();
+    about.classList.remove("hide");
+  }
 
-nav.contactClick(() => {
-  const contact = document.querySelector(".contact-page");
-  hidePages();
-  contact.classList.remove("hide");
+  if (e.target.id === "menu") {
+    const menu = document.querySelector(".menu-page");
+    hidePages();
+    menu.classList.remove("hide");
+  }
+
+  if (e.target.id === "contact") {
+    const contact = document.querySelector(".contact-page");
+    hidePages();
+    contact.classList.remove("hide");
+  }
 });

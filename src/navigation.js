@@ -6,19 +6,9 @@ export class Navigation {
     this.contact = document.getElementById("contact");
   }
 
-  homeClick(cb) {
-    this.home.addEventListener("click", cb);
-  }
-
-  aboutClick(cb) {
-    this.about.addEventListener("click", cb);
-  }
-
-  menuClick(cb) {
-    this.menu.addEventListener("click", cb);
-  }
-
-  contactClick(cb) {
-    this.contact.addEventListener("click", cb);
+  onClick(cb) {
+    [this.home, this.about, this.menu, this.contact].forEach((nav) => {
+      nav.addEventListener("click", cb);
+    });
   }
 }

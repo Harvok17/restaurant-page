@@ -6,7 +6,7 @@ export function initPage() {
   
   const html = `
 
-    <img src=${logo} alt="Logo">
+    <img src=${logo} alt="Logo" class="logo">
     <ul class="navbar">
         <li class="link" id="home">Home</li>      
         <li class="link" id="about">About</li>     
